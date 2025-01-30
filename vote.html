@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Author Revets Pzych">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ISATU | Student Organization Voting System</title>
+    <link rel="icon" type="image/icon" href="logo.png" sizes="32x32">
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+        <div class="container">
+            <div class="header">
+                <img src="logo.png" alt="ISATU Logo" class="me-3" style="width:100px;">
+                <h1>Iloilo Science and Technology University - Barotac Nuevo Campus</h1>
+                <p>Open until June 18 2025, 11:59 PM (GMT-05:00 Eastern Time)</p>
+            </div><br>
+
+        <form id="votingForm">
+            <div class="section">
+                <h2>Candidate for President</h2>
+                <div>
+                    <input type="radio" id="president1" name="president" value="Abd Oul" required>
+                    <label for="president1">Abd Oul</label>
+                </div>
+                <div>
+                    <input type="radio" id="president2" name="president" value="Jack Oul">
+                    <label for="president2">Jack Oul</label>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Candidate for Vice-President</h2>
+                <div>
+                    <input type="radio" id="vp1" name="vice-president" value="Labazmo Timo" required>
+                    <label for="vp1">Labazmo T. Timo</label>
+                </div>
+                <div>
+                    <input type="radio" id="vp2" name="vice-president" value="Pou Dzai">
+                    <label for="vp2">Pou Dzai</label>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="vote.js"></script>
+</body>
+</html>

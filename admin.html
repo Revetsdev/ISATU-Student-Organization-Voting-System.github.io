@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Author Revets Pzych">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin | Student Organization Voting System</title>
+    <link rel="icon" type="image/icon" href="logo.png" sizes="32x32">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="ISATU Logo" class="me-3" style="width:100px;">
+            <h1>Iloilo Science and Technology University - Barotac Nuevo Campus</h1>
+        </div>
+
+        <br>
+
+    <div class="container">
+        <h1>Voting Results</h1>
+        <div id="results"></div> <!-- Results will be displayed here -->
+        <button id="resetButton">Reset Vote Counts</button> <!-- Reset Button -->
+    </div>
+
+    <h3>MALE</h3>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Password</th>
+        </tr>
+        <tr>
+            <td>2023-0520-B</td>
+            <td>CALIGDONG, FRANCIS ADRIAN SARAYΝΟ</td>
+            <td>CALIGDONG-0520</td>
+        </tr>
+        <tr>
+            <td>2023-0134-B</td>
+            <td>PACLIBAR, KRINTH JAN BESORIO</td>
+            <td>PACLIBAR-0134</td>
+        </tr>
+        <tr>
+            <td>2023-1819-B</td>
+            <td>PACLIBAR, LEISTER ALCAMPOR</td>
+            <td>PACLIBAR-18190</td>
+        </tr>
+        <tr>
+            <td>2023-2825-B</td>
+            <td>PANES, STEVER LANCE TALLANES</td>
+            <td>PANES-2825</td>
+        </tr>
+        <tr>
+            <td>2023-2828-B</td>
+            <td>PEREZ, DERRIC DICHUPA</td>
+            <td>PEREZ-2828</td>
+        </tr>
+        <tr>
+            <td>2023-1508-B</td>
+            <td>PORRAS, RJ PEDREGOSA</td>
+            <td>PORRAS-1508</td>
+        </tr>
+        <tr>
+            <td>2023-2636-B</td>
+            <td>SINGSON, JAN ELMER NACIONALES</td>
+            <td>SINGSON-2636</td>
+        </tr>
+        <tr>
+            <td>2023-1290-B</td>
+            <td>TICAR, CARL TRISTAN FUENTES</td>
+            <td>TICAR-1290</td>
+        </tr>
+        <tr>
+            <td>2023-1278-B</td>
+            <td>TOCONG, JOVEN ALYSON DORILAG</td>
+            <td>TOCONG-1290</td>
+        </tr>
+        <tr>
+            <td>2023-2022-B</td>
+            <td>VILLANUEVA, HANS DIAZ</td>
+            <td>VILLANUEVA-2022</td>
+        </tr>
+        <tr>
+            <td>2022-0388-B</td>
+            <td>VILLANUEVA, ROBERT FERNANDEZ</td>
+            <td>VILLANUEVA-0388</td>
+        </tr>
+    </table>
+
+    <!-- Female Table -->
+
+    <h3>FEMALE</h3>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Password</th>
+        </tr>
+        <tr>
+            <td>2023-2351-B</td>
+            <td>ALIVAR, TWEETY GUILLERMO</td>
+            <td>ALIVAR-2351</td>
+        </tr>
+        <tr>
+            <td>2023-2342-B</td>
+            <td>ALIVAR, TWINKLE GUILLERMO</td>
+            <td>ALIVAR-2342</td>
+        </tr>
+        <tr>
+            <td>2023-2736-B</td>
+            <td>BARCELONA, KRISLY ANVY ALLANA</td>
+            <td>BARCELONA-2736</td>
+        </tr>
+        <tr>
+            <td>2023-1687-B</td>
+            <td>DIOSANA, JEANELLE BERNIL</td>
+            <td>DIOSANA-1687</td>
+        </tr>
+        <tr>
+            <td>2023-2535-B</td>
+            <td>ESTIPONA, WINDY FRAZE ESTIPONA</td>
+            <td>ESTIPONA-2535</td>
+        </tr>
+        <tr>
+            <td>2023-2676-B</td>
+            <td>FERPAS, ANGELICA DRANTO</td>
+            <td>FERPAS-2676</td>
+        </tr>
+        <tr>
+            <td>2023-0030-B</td>
+            <td>GALLO, DHAREN MAE BENBAN</td>
+            <td>GALLO-0030</td>
+        </tr>
+        <tr>
+            <td>2023-2627-B</td>
+            <td>GUARDIANO, MARDELINA ESPINOSA</td>
+            <td>GUARDIANO-2627</td>
+        </tr>
+        <tr>
+            <td>2023-0136-B</td>
+            <td>HERNANDEZ, IHAZEL GRACE DE LA PUERTA</td>
+            <td>HERNANDEZ-0136</td>
+        </tr>
+        <tr>
+            <td>2023-2108-B</td>
+            <td>JOLO, SHIELA MAY BULAWAN</td>
+            <td>JOLO-2108</td>
+        </tr>
+        <tr>
+            <td>2003-0282-B</td>
+            <td>LATORGO, STEPHANIE CAIGOY</td>
+            <td>LATORGO-0282</td>
+        </tr>
+        <tr>
+            <td>2023-0419-B</td>
+            <td>LEDESMA, CRISTINA BOGLOSA</td>
+            <td>LEDESMA-0419</td>
+        </tr>
+        <tr>
+            <td>2023-1982-B</td>
+            <td>LIMJUCO, ANGEL DENURA</td>
+            <td>LIMJUCO-1982</td>
+        </tr>
+        <tr>
+            <td>2023-2692-B</td>
+            <td>LOZA, AINIE DEMIAR</td>
+            <td>LOZA-2692</td>
+        </tr>
+    </table>
+    
+    <style>
+
+        /*logo header*/
+        .container {
+    max-width: 400px;
+    margin: 0px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+}
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px; /* Adds some space between tables */
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center; /* Center-align text horizontally */
+            vertical-align: middle; /* Center-align text vertically */
+        }
+
+        /* Centering the header */
+        h1 {
+            text-align: center;  /* Centers the text horizontally */
+            font-size: 2em;  /* Adjusts the font size */
+            color: black;  /* Sets the color of the header */
+        }
+
+        h3 {
+            text-align: center;  /* Centers the text horizontally */
+        }
+
+        p {
+            text-align: center;  /* Centers the text horizontally */
+            font-size: 1em;  /* Adjusts the font size */
+            color: black;  /* Sets the color of the header */
+            margin-bottom: 10px; /* Adds some space below the header */
+            margin-top: -15px;
+        }
+
+        /* Mobile responsiveness */
+        @media screen and (max-width: 768px) {
+            table, th, td {
+                font-size: 0.9em; /* Smaller font for mobile */
+                padding: 6px; /* Reduced padding for mobile */
+            }
+            h1 {
+                font-size: 1.5em; /* Smaller header for mobile */
+            }
+            p {
+                font-size: 0.9em; /* Smaller paragraph for mobile */
+            }
+        }
+
+        /* For smaller screens like phones in portrait mode */
+        @media screen and (max-width: 480px) {
+            table {
+                font-size: 0.8em; /* Further reduce font size on very small screens */
+            }
+            th, td {
+                padding: 4px; /* Further reduce padding */
+            }
+            h1 {
+                font-size: 1.2em; /* Even smaller header */
+            }
+            p {
+                font-size: 0.8em; /* Even smaller paragraph */
+            }
+        }
+    </style>
+
+    <script src="admin.js"></script>
+</body>
+</html>
