@@ -10,6 +10,7 @@
         
         // User database
         const users = [
+            { username: "sample", password: "sample123" },
             { username: "2023-0520-B", password: "CALIGDONG-0520" },
             { username: "2023-0134-B", password: "PACLIBAR-0134" },
             { username: "2023-1819-B", password: "PACLIBAR-1819" },
