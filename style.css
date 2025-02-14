@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .login-container {
+    margin-bottom: 10%;
     background: white;
     padding: 40px;
     border-radius: 10px;
