@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .login-container {
-    margin-bottom: 10%;
+    margin-bottom: 12%;
     background: white;
     padding: 40px;
     border-radius: 10px;
@@ -24,7 +24,7 @@ body {
 }
 .vertical-line {
     width: 3px;
-    height: 90px;
+    height: 100px;
     background-color: #ccc;
     margin: 0 15px;
 }
